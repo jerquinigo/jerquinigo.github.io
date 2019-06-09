@@ -25,7 +25,7 @@ class NavBar extends Component {
               title="Jonathan Erquinigo"
               titleStyle={{ fontSize: "30px", backgroundColor: "#44abcc" }}
               items={[
-                <Link className="links" to="/about">
+                <Link className="links" to="/">
                   About
                 </Link>,
                 <Link className="links" to="/projects">

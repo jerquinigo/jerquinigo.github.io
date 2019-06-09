@@ -1,6 +1,8 @@
 import React from "react";
 import NavBar from "./Components/Navbar.js";
 import About from "./Components/About.js";
+import Projects from "./Components/Projects.js";
+import { Route, Switch } from "react-router-dom";
 import "./App.css";
 
 function App() {
@@ -11,7 +13,10 @@ function App() {
         <NavBar />
       </div>
       <div className="landingPageComponent">
-        <About />
+        <Switch>
+          <Route path="/" exact component={About} />
+          <Route path="/projects" component={Projects} />
+        </Switch>
       </div>
     </div>
   );
