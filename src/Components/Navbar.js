@@ -11,6 +11,7 @@ class NavBar extends Component {
   }
 
   render() {
+    console.log(this.state.showNav);
     return (
       <div className="navBarMainDiv">
         <MenuIcon
@@ -25,19 +26,39 @@ class NavBar extends Component {
               title="Jonathan Erquinigo"
               titleStyle={{ fontSize: "30px", backgroundColor: "#44abcc" }}
               items={[
-                <Link className="links" to="/">
+                <Link
+                  onClick={() => this.setState({ showNav: false })}
+                  className="links"
+                  to="/"
+                >
                   About
                 </Link>,
-                <Link className="links" to="/projects">
+                <Link
+                  onClick={() => this.setState({ showNav: false })}
+                  className="links"
+                  to="/projects"
+                >
                   Projects
                 </Link>,
-                <Link className="links" to="/skills">
+                <Link
+                  onClick={() => this.setState({ showNav: false })}
+                  className="links"
+                  to="/skills"
+                >
                   Skills
                 </Link>,
-                <Link className="links" to="/contact">
+                <Link
+                  onClick={() => this.setState({ showNav: false })}
+                  className="links"
+                  to="/contact"
+                >
                   Contact
                 </Link>,
-                <Link className="links" to="/resume">
+                <Link
+                  onClick={() => this.setState({ showNav: false })}
+                  className="links"
+                  to="/resume"
+                >
                   My Resume
                 </Link>
               ]}
