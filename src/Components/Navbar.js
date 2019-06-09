@@ -17,7 +17,7 @@ class NavBar extends Component {
           className="iconItem"
           onClick={() => this.setState({ showNav: true })}
         />
-        <div className="NavContainer">
+        <div>
           <div>
             <SideNav
               showNav={this.state.showNav}
@@ -43,7 +43,8 @@ class NavBar extends Component {
               ]}
               itemStyle={{
                 listStyleType: "none",
-                fontSize: "25px"
+                fontSize: "25px",
+                overflow: "scroll"
               }}
             />
           </div>

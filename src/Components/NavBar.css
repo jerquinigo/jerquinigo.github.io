@@ -1,6 +1,10 @@
 /* .NavContainer {
-  width: 100%;
+  overflow: scroll;
 } */
+
+nav {
+  overflow: scroll;
+}
 
 .iconItem {
   height: 6%;
@@ -15,5 +19,4 @@
   display: flex;
   /* justify-content: flex-end; */
   margin-left: 2%;
-  height: 100vh;
 }
