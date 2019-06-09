@@ -1,0 +1,19 @@
+/* .NavContainer {
+  width: 100%;
+} */
+
+.iconItem {
+  height: 6%;
+  width: 6%;
+}
+
+.links {
+  text-decoration: none;
+}
+
+.navBarMainDiv {
+  display: flex;
+  /* justify-content: flex-end; */
+  margin-left: 2%;
+  height: 100vh;
+}
