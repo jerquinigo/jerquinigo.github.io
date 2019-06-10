@@ -1,0 +1,77 @@
+.projectsMainGridContainer {
+  display: grid;
+  grid-template-columns: 45% 45%;
+  grid-template-rows: 2fr 2fr 2fr 2fr;
+  justify-content: center;
+  box-sizing: inherit;
+}
+
+.item1 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+.saveAPlateImg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.interestImg {
+  width: 100%;
+  height: 100%;
+}
+
+.weatherAppImg {
+  width: 100%;
+  height: 100%;
+}
+
+.item2 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  background-color: lightblue;
+}
+
+.item3 {
+  grid-column-start: 2;
+  grid-column-end: 1;
+  background-color: lightblue;
+}
+
+.item4 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+@media (max-width: 414px) {
+  .projectsMainGridContainer {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr 2fr;
+    justify-content: center;
+    box-sizing: inherit;
+  }
+
+  .item1 {
+    grid-column-start: 1;
+    grid-column-end: 1;
+  }
+
+  .item2 {
+    grid-column-start: 2;
+    grid-column-end: 1;
+    background-color: lightblue;
+  }
+
+  .item4 {
+    grid-row-start: 3;
+    grid-column-end: 1;
+    background-color: lightblue;
+  }
+
+  .item3 {
+    grid-column-start: 4;
+    grid-column-end: 1;
+  }
+}

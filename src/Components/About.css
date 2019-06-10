@@ -4,3 +4,24 @@
   width: 50%;
   height: 40%;
 }
+
+.mediaP {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+/* .backgroundImage {
+  background-image: url("../Assets/wilderness.jpeg");
+} */
+
+@media (max-width: 414px) {
+  .mediaP {
+    font-size: 20px;
+    font-weight: 700;
+    color: blue;
+  }
+  .profilePicture {
+    height: 40%;
+    width: 100%;
+  }
+}
