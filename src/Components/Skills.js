@@ -9,14 +9,16 @@ class Skills extends Component {
   render() {
     return (
       <div>
-        <p>
-          I have A Background in Technology. I worked As An It Specialist and
-          have four working years experience in the IT field. I also have A
-          Cisco Certified Network Technician certificate. I made the Change to
-          be A software engineer and love the field. I love to create and
-          maintain applications.
-        </p>
-        <p>My Tech Stack</p>
+        <div className="mySkillsParagraph">
+          <p className="skillsInnerParagraph">
+            I have A Background in Technology. I worked As An It Specialist and
+            have four working years experience in the IT field. I also have A
+            Cisco Certified Network Technician certificate. I made the change to
+            be A software engineer and love the field. I love to create and
+            maintain applications.
+          </p>
+        </div>
+        <p className="techStackTitle">My Tech Stack</p>
         <div className="mainImagesContainer">
           <div className="innerMainContainer">
             <div className="row1Container">
@@ -26,19 +28,19 @@ class Skills extends Component {
                   src="https://icongr.am/devicon/react-original.svg"
                   alt=""
                 />
-                <p>React</p>
+                <p className="skillSetText">React</p>
                 <img
                   className="images"
                   src="https://cdn.freebiesupply.com/logos/large/2x/redux-logo-png-transparent.png"
                   alt=""
                 />
-                <p>Redux</p>
+                <p className="skillSetText">Redux</p>
                 <img
                   className="images"
                   src="https://icongr.am/devicon/javascript-original.svg"
                   alt=""
                 />
-                <p>JavaScript</p>
+                <p className="skillSetText">JavaScript</p>
               </div>
             </div>
 
@@ -48,19 +50,19 @@ class Skills extends Component {
                 src="https://icongr.am/devicon/postgresql-original.svg"
                 alt=""
               />
-              <p>PostGresql</p>
+              <p className="skillSetText">PostGresql</p>
               <img
                 className="images"
                 src="https://icongr.am/devicon/html5-original.svg"
                 alt=""
               />
-              <p>HTML5</p>
+              <p className="skillSetText">HTML5</p>
               <img
                 className="images"
                 src="https://icongr.am/devicon/git-original.svg"
                 alt=""
               />
-              <p>Git</p>
+              <p className="skillSetText">Git</p>
             </div>
 
             <div className="row3">
@@ -69,7 +71,7 @@ class Skills extends Component {
                 src="https://icongr.am/devicon/css3-original.svg"
                 alt=""
               />
-              <p>CSS3</p>
+              <p className="skillSetText">CSS3</p>
               <img
                 className="images"
                 src="https://icongr.am/devicon/nodejs-original-wordmark.svg"

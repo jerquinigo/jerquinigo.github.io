@@ -3,6 +3,30 @@
   height: 200px;
 }
 
+.mySkillsParagraph {
+  width: 100%;
+}
+
+.skillsInnerParagraph {
+  font-size: 2em;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 700;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.techStackTitle {
+  font-family: "Bungee Shade", cursive;
+  font-size: 3em;
+  font-weight: 700;
+}
+
+.skillSetText {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 700;
+  font-size: 2em;
+}
+
 .mainImagesContainer {
   display: grid;
   justify-content: space-around;
@@ -39,13 +63,12 @@
 }
 
 @media (max-width: 414px) {
-  /* .mainImagesContainer {
-    display: flex;
-    flex-direction: column;
-  } */
-
   .innerMainContainer {
     display: flex;
     flex-direction: column;
+  }
+
+  .skillsInnerParagraph {
+    font-size: 1em;
   }
 }
