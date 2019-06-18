@@ -9,6 +9,7 @@ class Skills extends Component {
     return (
       <div>
         <p>this is the skills</p>
+        <img src="https://icongr.am/devicon/react-original.svg" alt="" />
       </div>
     );
   }

@@ -1,7 +1,9 @@
 import React, { Component } from "react";
 import SideNav, { MenuIcon } from "react-simple-sidenav";
 import { Link } from "react-router-dom";
+import ResumeCopy from "../JonathanEResume.pdf";
 import "./NavBar.css";
+
 class NavBar extends Component {
   constructor() {
     super();
@@ -54,13 +56,14 @@ class NavBar extends Component {
                 >
                   Contact
                 </Link>,
-                <Link
+                <a
                   onClick={() => this.setState({ showNav: false })}
                   className="links"
-                  to="/resume"
+                  href={ResumeCopy}
+                  target="_blank"
                 >
-                  My Resume
-                </Link>
+                  Resume
+                </a>
               ]}
               itemStyle={{
                 listStyleType: "none",
