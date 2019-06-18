@@ -37,3 +37,15 @@
   display: grid;
   justify-content: space-between;
 }
+
+@media (max-width: 414px) {
+  /* .mainImagesContainer {
+    display: flex;
+    flex-direction: column;
+  } */
+
+  .innerMainContainer {
+    display: flex;
+    flex-direction: column;
+  }
+}

@@ -49,13 +49,7 @@ class NavBar extends Component {
                 >
                   Skills
                 </Link>,
-                <Link
-                  onClick={() => this.setState({ showNav: false })}
-                  className="links"
-                  to="/contact"
-                >
-                  Contact
-                </Link>,
+
                 <a
                   onClick={() => this.setState({ showNav: false })}
                   className="links"
