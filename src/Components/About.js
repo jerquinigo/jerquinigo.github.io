@@ -11,18 +11,36 @@ class About extends Component {
     return (
       <div>
         <h1 className="myName">Jonathan Erquinigo</h1>
-        <h2 className="myTitle">Full Stack Web Developer/ Software Engineer</h2>
-        <div className="linkIconsMainDiv">
-          <img
-            className="linkIcons"
-            src="https://icongr.am/devicon/linkedin-original.svg"
-            alt=""
-          />
-          <img
-            className="linkIcons"
-            src="https://icongr.am/devicon/github-original-wordmark.svg"
-            alt=""
-          />
+        <h2 className="myTitle">Software Engineer</h2>
+        <div className="linkIconsMainContainer">
+          <div className="linkIconsMainDiv">
+            <a
+              target="blank"
+              className="anchorLinkIcons"
+              href="https://www.linkedin.com/in/jerquinigo/"
+            >
+              <div>
+                <img
+                  className="linkIcons1"
+                  src="https://icongr.am/devicon/linkedin-original.svg"
+                  alt=""
+                />
+              </div>
+            </a>
+            <a
+              href="https://github.com/jerquinigo"
+              className="anchorLinkIcons"
+              target="blank"
+            >
+              <div>
+                <img
+                  className="linkIcons2"
+                  src="https://icongr.am/devicon/github-original-wordmark.svg"
+                  alt=""
+                />
+              </div>
+            </a>
+          </div>
         </div>
         <br />
 

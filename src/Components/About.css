@@ -5,14 +5,28 @@
   height: 40%;
 }
 
+.linkIconsMainContainer {
+  width: 100%;
+}
+
+.anchorLinkIcons {
+  width: 30%;
+  height: 30%;
+}
 .linkIconsMainDiv {
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 
-.linkIcons {
-  width: 12%;
+.linkIcons1 {
+  width: 25%;
+  height: 20%;
+  padding-right: 10%;
+}
+
+.linkIcons2 {
+  width: 25%;
   height: 20%;
 }
 
