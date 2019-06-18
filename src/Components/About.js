@@ -12,6 +12,20 @@ class About extends Component {
       <div>
         <h1 className="myName">Jonathan Erquinigo</h1>
         <h2 className="myTitle">Full Stack Web Developer/ Software Engineer</h2>
+        <div className="linkIconsMainDiv">
+          <img
+            className="linkIcons"
+            src="https://icongr.am/devicon/linkedin-original.svg"
+            alt=""
+          />
+          <img
+            className="linkIcons"
+            src="https://icongr.am/devicon/github-original-wordmark.svg"
+            alt=""
+          />
+        </div>
+        <br />
+
         <img className="profilePicture" src={Jonathan} alt="" />
         <p className="mediaP">
           Computer technician turned fullstack web developer. I have a love for

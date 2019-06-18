@@ -5,9 +5,20 @@
   height: 40%;
 }
 
+.linkIconsMainDiv {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.linkIcons {
+  width: 12%;
+  height: 20%;
+}
+
 .myName {
   font-family: "Bungee Shade", cursive;
-  font-size: 4em;
+  font-size: 3em;
   font-weight: 700;
 }
 
