@@ -5,7 +5,18 @@
   height: 40%;
 }
 
+.myName {
+  font-family: "Bungee Shade", cursive;
+  font-size: 4em;
+  font-weight: 700;
+}
+
+.myTitle {
+  font-family: "Fira Sans", sans-serif;
+  font-size: 2em;
+}
 .mediaP {
+  font-family: "Fira Sans", sans-serif;
   font-size: 20px;
   font-weight: 700;
 }

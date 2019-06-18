@@ -32,5 +32,6 @@
   }
 }
 body {
-  background-color: pink;
+  background-image: url("./Assets/metalBackground.jpg");
+  background-attachment: fixed;
 }

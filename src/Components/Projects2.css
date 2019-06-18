@@ -6,6 +6,12 @@
   box-sizing: inherit;
 }
 
+.projectTitle {
+  font-family: "Bungee Shade", cursive;
+  font-size: 4em;
+  font-weight: 700;
+}
+
 .item1 {
   grid-column-start: 1;
   grid-column-end: 2;

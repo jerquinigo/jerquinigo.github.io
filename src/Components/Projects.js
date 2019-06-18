@@ -11,7 +11,7 @@ class Projects extends Component {
   render() {
     return (
       <div className="projectsMainContainer">
-        <h1>Projects</h1>
+        <h1 className="projectTitle">Projects</h1>
         <div className="projectsMainGridContainer">
           <div className="item1">
             <img className="saveAPlateImg" src={saveAPlate} alt="" />
