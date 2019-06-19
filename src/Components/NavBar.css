@@ -24,7 +24,21 @@ nav {
 @media (max-width: 414px) {
   .iconItem {
     height: 15%;
-    width: 18%;
+    width: 20%;
+  }
+
+  .navBarMainDiv {
+    display: flex;
+    /* justify-content: flex-end; */
+    margin-left: 3%;
+    margin-top: 5%;
+  }
+}
+
+@media (max-width: 740px) {
+  .iconItem {
+    height: 15%;
+    width: 20%;
   }
 
   .navBarMainDiv {
