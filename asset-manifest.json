@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/index/static/css/main.23fbba99.chunk.css",
-    "main.js": "/index/static/js/main.32c6c9df.chunk.js",
-    "main.js.map": "/index/static/js/main.32c6c9df.chunk.js.map",
-    "runtime~main.js": "/index/static/js/runtime~main.00652782.js",
-    "runtime~main.js.map": "/index/static/js/runtime~main.00652782.js.map",
-    "static/js/2.a805b94c.chunk.js": "/index/static/js/2.a805b94c.chunk.js",
-    "static/js/2.a805b94c.chunk.js.map": "/index/static/js/2.a805b94c.chunk.js.map",
-    "index.html": "/index/index.html",
-    "precache-manifest.92853d521b04434db94ccf646508d8a2.js": "/index/precache-manifest.92853d521b04434db94ccf646508d8a2.js",
-    "service-worker.js": "/index/service-worker.js",
-    "static/css/main.23fbba99.chunk.css.map": "/index/static/css/main.23fbba99.chunk.css.map",
-    "static/media/JonathanEResume.pdf": "/index/static/media/JonathanEResume.b18067dd.pdf",
-    "static/media/Jonathan_E.jpg": "/index/static/media/Jonathan_E.add98788.jpg",
-    "static/media/interest1.png": "/index/static/media/interest1.6ab8ed00.png",
-    "static/media/App.css": "/index/static/media/metalBackground.54077faa.jpg",
-    "static/media/saveAPlate.png": "/index/static/media/saveAPlate.b06ba15f.png",
-    "static/media/weatherApp.png": "/index/static/media/weatherApp.c7ddbb62.png"
+    "main.css": "/index.html/static/css/main.4c22cd20.chunk.css",
+    "main.js": "/index.html/static/js/main.31b631db.chunk.js",
+    "main.js.map": "/index.html/static/js/main.31b631db.chunk.js.map",
+    "runtime~main.js": "/index.html/static/js/runtime~main.01dc9df8.js",
+    "runtime~main.js.map": "/index.html/static/js/runtime~main.01dc9df8.js.map",
+    "static/js/2.a805b94c.chunk.js": "/index.html/static/js/2.a805b94c.chunk.js",
+    "static/js/2.a805b94c.chunk.js.map": "/index.html/static/js/2.a805b94c.chunk.js.map",
+    "index.html": "/index.html/index.html",
+    "precache-manifest.7cd82c853806ea0a2bfbba6dd6f4d563.js": "/index.html/precache-manifest.7cd82c853806ea0a2bfbba6dd6f4d563.js",
+    "service-worker.js": "/index.html/service-worker.js",
+    "static/css/main.4c22cd20.chunk.css.map": "/index.html/static/css/main.4c22cd20.chunk.css.map",
+    "static/media/JonathanEResume.pdf": "/index.html/static/media/JonathanEResume.b18067dd.pdf",
+    "static/media/Jonathan_E.jpg": "/index.html/static/media/Jonathan_E.add98788.jpg",
+    "static/media/interest1.png": "/index.html/static/media/interest1.6ab8ed00.png",
+    "static/media/App.css": "/index.html/static/media/metalBackground.54077faa.jpg",
+    "static/media/saveAPlate.png": "/index.html/static/media/saveAPlate.b06ba15f.png",
+    "static/media/weatherApp.png": "/index.html/static/media/weatherApp.c7ddbb62.png"
   }
 }
