@@ -61,7 +61,10 @@
   .mediaP {
     font-size: 20px;
     font-weight: 700;
-    color: blue;
+    font-family: "Fira Sans", sans-serif;
+    padding-left: 15%;
+    padding-right: 15%;
+    text-align: justify;
   }
   .profilePicture {
     height: 40%;
