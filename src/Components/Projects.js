@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+
 import saveAPlate from "../Assets/saveAPlate.png";
 import interest1 from "../Assets/interest1.png";
 import weatherApp from "../Assets/weatherApp.png";
@@ -27,6 +28,14 @@ class Projects extends Component {
               donation. On the other hand, clients are non-profit organizations
               that can claim those food items as well as favorite vendors.
             </p>
+            <div className="linksPresentation">
+              <a target="blank" href="http://save-a-plate.herokuapp.com/">
+                <button className="buttonDesign">Live Site</button>
+              </a>
+              <a href="https://github.com/jerquinigo/SaveAPlate" target="blank">
+                <button className="buttonDesign">Github Code</button>
+              </a>
+            </div>
           </div>
 
           <div className="item3">
@@ -38,6 +47,14 @@ class Projects extends Component {
               FullStack Application that has user auth and redux to manage
               states.
             </p>
+            <div className="linksPresentation">
+              <a
+                href="https://github.com/jerquinigo/Pinterest_Clone"
+                target="blank"
+              >
+                <button className="buttonDesign">Github Code</button>
+              </a>
+            </div>
           </div>
           <div className="item4">
             <img className="interestImg" src={interest1} alt="" />
@@ -53,6 +70,14 @@ class Projects extends Component {
               temperature, it will display a funny Gif based on the temperature
               at your location
             </p>
+            <div className="linksPresentation">
+              <a
+                href="https://github.com/jerquinigo/Weather-App/blob/master/weather_app/src/appInfo.md"
+                target="blank"
+              >
+                <button className="buttonDesign">Github Code</button>
+              </a>
+            </div>
           </div>
         </div>
       </div>
