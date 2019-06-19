@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/myPortfolioSite1/static/css/main.b0e7a9af.chunk.css",
-    "main.js": "/myPortfolioSite1/static/js/main.35b5c638.chunk.js",
-    "main.js.map": "/myPortfolioSite1/static/js/main.35b5c638.chunk.js.map",
-    "runtime~main.js": "/myPortfolioSite1/static/js/runtime~main.861af788.js",
-    "runtime~main.js.map": "/myPortfolioSite1/static/js/runtime~main.861af788.js.map",
-    "static/js/2.a805b94c.chunk.js": "/myPortfolioSite1/static/js/2.a805b94c.chunk.js",
-    "static/js/2.a805b94c.chunk.js.map": "/myPortfolioSite1/static/js/2.a805b94c.chunk.js.map",
-    "index.html": "/myPortfolioSite1/index.html",
-    "precache-manifest.cddee8813ef4df521a19573b1f581d69.js": "/myPortfolioSite1/precache-manifest.cddee8813ef4df521a19573b1f581d69.js",
-    "service-worker.js": "/myPortfolioSite1/service-worker.js",
-    "static/css/main.b0e7a9af.chunk.css.map": "/myPortfolioSite1/static/css/main.b0e7a9af.chunk.css.map",
-    "static/media/JonathanEResume.pdf": "/myPortfolioSite1/static/media/JonathanEResume.b18067dd.pdf",
-    "static/media/Jonathan_E.jpg": "/myPortfolioSite1/static/media/Jonathan_E.add98788.jpg",
-    "static/media/interest1.png": "/myPortfolioSite1/static/media/interest1.6ab8ed00.png",
-    "static/media/App.css": "/myPortfolioSite1/static/media/metalBackground.54077faa.jpg",
-    "static/media/saveAPlate.png": "/myPortfolioSite1/static/media/saveAPlate.b06ba15f.png",
-    "static/media/weatherApp.png": "/myPortfolioSite1/static/media/weatherApp.c7ddbb62.png"
+    "main.css": "/index/static/css/main.23fbba99.chunk.css",
+    "main.js": "/index/static/js/main.32c6c9df.chunk.js",
+    "main.js.map": "/index/static/js/main.32c6c9df.chunk.js.map",
+    "runtime~main.js": "/index/static/js/runtime~main.00652782.js",
+    "runtime~main.js.map": "/index/static/js/runtime~main.00652782.js.map",
+    "static/js/2.a805b94c.chunk.js": "/index/static/js/2.a805b94c.chunk.js",
+    "static/js/2.a805b94c.chunk.js.map": "/index/static/js/2.a805b94c.chunk.js.map",
+    "index.html": "/index/index.html",
+    "precache-manifest.92853d521b04434db94ccf646508d8a2.js": "/index/precache-manifest.92853d521b04434db94ccf646508d8a2.js",
+    "service-worker.js": "/index/service-worker.js",
+    "static/css/main.23fbba99.chunk.css.map": "/index/static/css/main.23fbba99.chunk.css.map",
+    "static/media/JonathanEResume.pdf": "/index/static/media/JonathanEResume.b18067dd.pdf",
+    "static/media/Jonathan_E.jpg": "/index/static/media/Jonathan_E.add98788.jpg",
+    "static/media/interest1.png": "/index/static/media/interest1.6ab8ed00.png",
+    "static/media/App.css": "/index/static/media/metalBackground.54077faa.jpg",
+    "static/media/saveAPlate.png": "/index/static/media/saveAPlate.b06ba15f.png",
+    "static/media/weatherApp.png": "/index/static/media/weatherApp.c7ddbb62.png"
   }
 }
