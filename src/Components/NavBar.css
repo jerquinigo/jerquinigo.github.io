@@ -20,3 +20,17 @@ nav {
   /* justify-content: flex-end; */
   margin-left: 2%;
 }
+
+@media (max-width: 414px) {
+  .iconItem {
+    height: 15%;
+    width: 18%;
+  }
+
+  .navBarMainDiv {
+    display: flex;
+    /* justify-content: flex-end; */
+    margin-left: 3%;
+    margin-top: 5%;
+  }
+}
