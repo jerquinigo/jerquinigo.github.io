@@ -2,7 +2,7 @@
   "name": "my_portfolio_website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://jerquinigo.github.io/",
+  "homepage": "https://jerquinigo.github.io/myPortfolioSite1/",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "react": "^16.8.6",
