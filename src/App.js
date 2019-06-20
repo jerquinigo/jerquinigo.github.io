@@ -6,6 +6,7 @@ import Skills from "./Components/Skills.js";
 import Resume from "./Components/Resume.js";
 // import ResumeCopy from "./JonathanEResume.pd";
 import { Route, Switch } from "react-router-dom";
+import { baseUrl } from "./index.js";
 import "./App.css";
 
 function App() {
@@ -17,10 +18,10 @@ function App() {
         </div>
         <div className="landingPageComponent">
           <Switch>
-            <Route path="/" exact component={About} />
-            <Route path="/projects" component={Projects} />
-            <Route path="/skills" component={Skills} />
-            <Route path="/resume" component={Resume} />
+            <Route path={baseUrl + "/"} exact component={About} />
+            <Route path={baseUrl + "/projects"} component={Projects} />
+            <Route path={baseUrl + "/skills"} component={Skills} />
+            <Route path={baseUrl + "/resume"} component={Resume} />
           </Switch>
         </div>
       </div>

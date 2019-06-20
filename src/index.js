@@ -1,16 +1,16 @@
 import React from "react";
 import ReactDOM from "react-dom";
-// import { BrowserRouter } from "react-router-dom";
-import { Router } from "react-router-dom";
-import createHistory from "history/createBrowserHistory";
+import { BrowserRouter } from "react-router-dom";
+// import { Router } from "react-router-dom";
+// import createHistory from "history/createBrowserHistory";
 import "./index.css";
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
-
+export const baseUrl = process.env.PUBLIC_URL;
 ReactDOM.render(
-  <Router history={createHistory({ basename: process.env.PUBLIC_URL })}>
+  <BrowserRouter>
     <App />
-  </Router>,
+  </BrowserRouter>,
   document.getElementById("root")
 );
 
