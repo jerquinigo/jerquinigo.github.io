@@ -74,9 +74,11 @@ class Projects extends Component {
             <h2 className="projectNameForDiv">Weather App</h2>
             <p className="innerParagraphText">
               WEATHER APP is a frontend application that uses the Darknet api to
-              get updates for the weather based on your location. Based on the
-              temperature, it will display a funny Gif based on the temperature
-              at your location
+              get updates for the weather based longitude and latitude. Based on
+              the location, it will display a funny gif showing the current
+              temperature based on cartoon images of homer simpson reacting to
+              the temperature. This app uses React and is hosted on github
+              pages.
             </p>
             <div className="linksPresentation">
               <a

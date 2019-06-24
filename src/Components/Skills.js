@@ -11,11 +11,13 @@ class Skills extends Component {
       <div>
         <div className="mySkillsParagraph">
           <p className="skillsInnerParagraph">
-            I have A Background in Technology. I worked As An It Specialist and
-            have four working years experience in the IT field. I also have A
-            Cisco Certified Network Technician certificate. I made the change to
-            be A software engineer and love the field. I love to create and
-            maintain applications.
+            Besides my current techstack, i had four working years of experience
+            in the IT field. I have a Cisco Certified Network Technician
+            Certificate. I am happy that i made the transition to become a
+            software engineer and i will continue to improve and grow my
+            techstack for years to come, along with my team player aspects and
+            have an open mindset for feedback to keep growing with soft skills
+            and technical skills
           </p>
         </div>
         <p className="techStackTitle">My Tech Stack</p>

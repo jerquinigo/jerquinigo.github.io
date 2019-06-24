@@ -49,7 +49,7 @@ class About extends Component {
           <p className="mediaP">
             A Computer Techician who transitioned into becoming a web developer.
             I have a love for technology and wanted to grow my skillsets into
-            development. I entered A program called Pursuit and they taught me
+            development. I entered a program called Pursuit and they taught me
             the skills to become a fullstack web developer. I have fluent skills
             in React, JavaScript, Express, SQL, Postgres, and Node.js
           </p>
