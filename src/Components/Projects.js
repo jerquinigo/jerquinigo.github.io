@@ -49,6 +49,12 @@ class Projects extends Component {
             </p>
             <div className="linksPresentation">
               <a
+                target="blank"
+                href="https://interest-clone-project.herokuapp.com/"
+              >
+                <button className="buttonDesign">Live Site</button>
+              </a>
+              <a
                 href="https://github.com/jerquinigo/Pinterest_Clone"
                 target="blank"
               >
