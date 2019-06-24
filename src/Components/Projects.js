@@ -78,6 +78,12 @@ class Projects extends Component {
             </p>
             <div className="linksPresentation">
               <a
+                target="blank"
+                href="https://jerquinigo.github.io/Weather-App/"
+              >
+                <button className="buttonDesign">Live Site</button>
+              </a>
+              <a
                 href="https://github.com/jerquinigo/Weather-App/blob/master/weather_app/src/appInfo.md"
                 target="blank"
               >
