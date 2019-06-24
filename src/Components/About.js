@@ -47,11 +47,11 @@ class About extends Component {
         <img className="profilePicture" src={Jonathan} alt="" />
         <div className="aboutMeContainerText">
           <p className="mediaP">
-            Computer technician turned fullstack web developer. I have a love
-            for technology and wanted to create and maintain applications. I
-            entered A program called Pursuit and I learned How to be a full
-            stack Developer. Using React, Redux, Javascript, Express, SQL,
-            Postgres and node.js.
+            A Computer Techician who transitioned into becoming a web developer.
+            I have a love for technology and wanted to grow my skillsets into
+            development. I entered A program called Pursuit and they taught me
+            the skills to become a fullstack web developer. I have fluent skills
+            in React, JavaScript, Express, SQL, Postgres, and Node.js
           </p>
         </div>
       </div>

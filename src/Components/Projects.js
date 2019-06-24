@@ -42,10 +42,12 @@ class Projects extends Component {
             <h2 className="projectNameForDiv">Interest</h2>
             <p className="innerParagraphText">
               {" "}
-              <strong>"Interest"</strong> is a clone of the Pinterest Website. I
-              worked copying UI/UX to functionality of the site. It is a
-              FullStack Application that has user auth and redux to manage
-              states.
+              <strong>"Interest"</strong> Interest is a clone of the Pinterest
+              Website. I wanted to test my skills and recreate the same
+              functionality that The real website offers. It was a challenging
+              task, but managed to replicate it. It is a fullstack application
+              that uses all my current tech stack skills. It has user
+              authentications and redux to manage the states.
             </p>
             <div className="linksPresentation">
               <a
