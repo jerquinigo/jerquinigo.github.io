@@ -11,13 +11,10 @@ class Skills extends Component {
       <div>
         <div className="mySkillsParagraph">
           <p className="skillsInnerParagraph">
-            Besides my current techstack, i had four working years of experience
-            in the IT field. I have a Cisco Certified Network Technician
-            Certificate. I am happy that i made the transition to become a
-            software engineer and i will continue to improve and grow my
-            techstack for years to come, along with my team player aspects and
-            have an open mindset for feedback to keep growing with soft skills
-            and technical skills
+            As an early career software engineer I will continue to enhance my
+            skillset and expand my tech stack. I am a team player and I am
+            always open to feedback. In addition to the skills below, I have a
+            Cisco Certified Network Technician Certificate.
           </p>
         </div>
         <p className="techStackTitle">My Tech Stack</p>
@@ -94,3 +91,11 @@ class Skills extends Component {
 }
 
 export default Skills;
+
+// Besides my current techstack, i had four working years of experience
+// in the IT field. I have a Cisco Certified Network Technician
+// Certificate. I am happy that i made the transition to become a
+// software engineer and i will continue to improve and grow my
+// techstack for years to come, along with my team player aspects and
+// have an open mindset for feedback to keep growing with soft skills
+// and technical skills
