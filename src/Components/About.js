@@ -47,11 +47,11 @@ class About extends Component {
         <img className="profilePicture" src={Jonathan} alt="" />
         <div className="aboutMeContainerText">
           <p className="mediaP">
-            A Computer Techician who transitioned into becoming a web developer.
-            I have a love for technology and wanted to grow my skillsets into
-            development. I entered a program called Pursuit and they taught me
-            the skills to become a fullstack web developer. I have fluent skills
-            in React, JavaScript, Express, SQL, Postgres, and Node.js
+            Computer Technician to Full Stack Web Developer. My love for
+            technology led me to a program called Pursuit. As a fellow I learned
+            the skills needed to become a developer. I am now fluent in React,
+            JavaScript, Express, SQL, Postgres, and Node.js. With these new
+            skills I would like to help businesses run more efficiently.
           </p>
         </div>
       </div>
@@ -60,3 +60,9 @@ class About extends Component {
 }
 
 export default About;
+
+// A Computer Techician who transitioned into becoming a web developer.
+// I have a love for technology and wanted to grow my skillsets into
+// development. I entered a program called Pursuit and they taught me
+// the skills to become a fullstack web developer. I have fluent skills
+// in React, JavaScript, Express, SQL, Postgres, and Node.js
