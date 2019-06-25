@@ -51,7 +51,7 @@ class About extends Component {
             technology led me to a program called Pursuit. As a fellow I learned
             the skills needed to become a developer. I am now fluent in React,
             JavaScript, Express, SQL, Postgres, and Node.js. With these new
-            skills I would like to help businesses run more efficiently.
+            skills I am ready to help businesses run more efficiently.
           </p>
         </div>
       </div>
